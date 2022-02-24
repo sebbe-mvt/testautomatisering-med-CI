@@ -1,0 +1,37 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Remote;
+using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Interactions;
+using NUnit.Framework;
+[TestFixture]
+public class Ectest2Test {
+  private IWebDriver driver;
+  public IDictionary<string, object> vars {get; private set;}
+  private IJavaScriptExecutor js;
+  [SetUp]
+  public void SetUp() {
+    driver = new FirefoxDriver();
+    js = (IJavaScriptExecutor)driver;
+    vars = new Dictionary<string, object>();
+  }
+  [TearDown]
+  protected void TearDown() {
+    driver.Quit();
+  }
+  [Test]
+  public void ectest2() {
+    driver.Navigate().GoToUrl("https://ecutbildning.se/utbildningar/cad-konstruktor/");
+    driver.Manage().Window.Size = new System.Drawing.Size(1920, 1040);
+    driver.FindElement(By.CssSelector(".site_logo")).Click();
+    driver.FindElement(By.LinkText("Data Scientist >>")).Click();
+    Assert.That(driver.FindElement(By.CssSelector(".utbildninger--program-meta_niva > .meta_text")).Text, Is.EqualTo("Göteborg, Helsingborg, Stockholm, Malmö "));
+    Assert.That(driver.FindElement(By.CssSelector(".utbildninger--program-meta_studieform > .meta_text")).Text, Is.EqualTo("EC Stream"));
+  }
+}
