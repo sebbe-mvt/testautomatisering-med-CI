@@ -97,3 +97,11 @@ C:\Users\reitz\source\repos\test1\test1\obj\Debug\net6.0\test1.dll
 C:\Users\reitz\source\repos\test1\test1\obj\Debug\net6.0\ref\test1.dll
 C:\Users\reitz\source\repos\test1\test1\obj\Debug\net6.0\test1.pdb
 C:\Users\reitz\source\repos\test1\test1\obj\Debug\net6.0\test1.genruntimeconfig.cache
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\reitz\source\repos\test1\test1\bin\Debug\net6.0\WebDriver.dll
