@@ -16,7 +16,7 @@
           "NUnit3TestAdapter": "4.2.1",
           "Selenium.Chrome.WebDriver": "85.0.0",
           "Selenium.WebDriver": "4.1.0",
-          "Selenium.WebDriver.ChromeDriver": "98.0.4758.10200",
+          "Selenium.WebDriver.ChromeDriver": "99.0.4844.5100",
           "Selenium.WebDriver.GeckoDriver": "0.30.0.1",
           "coverlet.collector": "3.1.2"
         },
@@ -372,7 +372,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/98.0.4758.10200": {},
+      "Selenium.WebDriver.ChromeDriver/99.0.4844.5100": {},
       "Selenium.WebDriver.GeckoDriver/0.30.0.1": {},
       "System.Collections/4.3.0": {
         "dependencies": {
@@ -620,12 +620,12 @@
       "path": "selenium.webdriver/4.1.0",
       "hashPath": "selenium.webdriver.4.1.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/98.0.4758.10200": {
+    "Selenium.WebDriver.ChromeDriver/99.0.4844.5100": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+vKrrLkZ3rqsDDxjH7Z0AhkgYCtcppJ36iVcnzRKCOiFK2kUbxL1ESi5ExhqeeyPFZAO6Mm+n48ctJ4D6H9LEA==",
-      "path": "selenium.webdriver.chromedriver/98.0.4758.10200",
-      "hashPath": "selenium.webdriver.chromedriver.98.0.4758.10200.nupkg.sha512"
+      "sha512": "sha512-021uEuHHgaZ9X2oSCaClBun+azybXg5lw/Pq79fc3D98X0oEpHPuXRTRthxzmqTwH6CGnRNfTvHMZ9xdvHDLzQ==",
+      "path": "selenium.webdriver.chromedriver/99.0.4844.5100",
+      "hashPath": "selenium.webdriver.chromedriver.99.0.4844.5100.nupkg.sha512"
     },
     "Selenium.WebDriver.GeckoDriver/0.30.0.1": {
       "type": "package",
